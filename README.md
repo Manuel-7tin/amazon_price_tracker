@@ -1,8 +1,10 @@
-#Project Title: Advanced Amazon Price Tracker for Smart Shoppers
+# Project Title: Advanced Amazon Price Tracker for Smart Shoppers
+[!Repo Cover](https://github.com/Manuel-7tin/amazon_price_tracker/blob/main/repo_cover_amazon.jpg)
+
 
 Welcome to the Advanced Amazon Price Tracker, in this project, I engineered a sophisticated Amazon price tracking system that empowers users to effortlessly monitor product prices, receive timely alerts, and make informed purchasing decisions. By employing a variety of libraries, modules, and a diverse skill set, including web scraping, email automation with Python, and expert problem-solving, I've created an efficient solution that ensures users never miss a great deal.
 
-#Key Highlights:
+# Key Highlights:
 **Real-Time Price Tracking:** The system provides real-time updates on Amazon product prices.
 
 **Custom Alerts:** Users can set their target price, and the system sends an email notification once it's met.
