@@ -72,8 +72,8 @@ if productPrice < set_price:
                    f"set price requirement of ${set_price}.\n  \nProduct Name: {productName}.\n  \nProduct " \
                    f"Price: ${productPrice}.\nHere is a link to the product👇⤵:\n{product_link}" \
                    f"\n  \nThanks for writing this code and do have a great day."
-    mail_sender = "opolopothings@gmail.com"
-    PASSWORD = "zupsypvvrwkytdxq"
+    mail_sender = "Sender Email goes here"
+    PASSWORD = "Sender email password"
     message = EmailMessage()
     message["From"] = mail_sender
     message["To"] = user_email
@@ -83,4 +83,4 @@ if productPrice < set_price:
     context = ssl.create_default_context()
     with smtplib.SMTP_SSL(host="smtp.gmail.com", port=465, context=context) as mail:
         mail.login(user=mail_sender, password=PASSWORD)
-        mail.sendmail(from_addr=mail_sender, to_addrs="ebifredrick07@gmail.com", msg=message.as_string())
+        mail.sendmail(from_addr=mail_sender, to_addrs=user_email, msg=message.as_string())
